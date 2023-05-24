@@ -1,0 +1,112 @@
+input {
+   /* Убираем границы */
+   border: none;
+   /* Убираем обводку при фокусировке */
+   outline: none;
+   /* Убираем фон */
+   background-color: transparent;
+   /* Убираем отступы */
+   margin: 0;
+   padding: 0;
+   /* Убираем текстовую тень */
+   text-shadow: none;
+   /* Убираем текстовое украшение */
+   text-decoration: none;
+   /* Устанавливаем шрифт по умолчанию */
+   font-family: inherit;
+   /* Устанавливаем цвет текста */
+   color: inherit;
+   transition: 0.3s;
+}
+input:hover {
+   /* стили, которые нужно убрать */
+   /* например: */
+   background-color: transparent;
+
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+html{
+   /* background-color: rgb(0, 255, 64); */
+   background: url(../../../public/imgs/bg.png) no-repeat;
+   background-size: 100% 700px;
+   
+}
+.wheelfleex{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction:row;
+}
+.betside{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction:column;
+}
+.thebigggest{
+   display: flex;
+   align-items: space-between;
+   justify-content: space-between;
+}
+.biggest{
+   width: 200px;
+   height: 110px;
+   background-color: rgb(56, 56, 56);
+   opacity: 1;
+   border-radius: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   cursor: pointer;
+}
+
+.reward{
+   width: 100px;
+   height: 25px;
+   background-color: rgb(255, 0, 0);
+   border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reward span {
+   color: white;
+   font-size: 20px;
+}
+
+
+.biggestmiddle span{
+   color: white;
+   font-size: 17px;
+}
+.biggestbottom span{
+   color: white;
+   font-size: 17px;
+}
+
+/* .yourbet{
+   border: 1px solid rgb(53, 53, 53);
+   border-radius: 10px;
+   color: rgb(128, 128, 128);
+   transition: 0.35;
+   background-color: rgb(0, 0, 0);
+   transition: 0.3s;
+}
+input{
+   color: white;
+   transition: 0.3s;
+}
+input:focus {
+   border-bottom: 2px solid rgb(255, 0, 76);
+   border-bottom-right-radius: 10px;
+   transition: 0.3s;
+ }
+  */

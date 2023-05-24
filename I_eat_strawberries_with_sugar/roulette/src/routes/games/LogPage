@@ -1,0 +1,15 @@
+import Main from "../../layouts/Main";
+
+import LoginPage from "../../views/games/registr/login";
+
+const LoggPage = () => {
+  return (
+    <>
+      <Main>
+        <LoginPage />
+        
+      </Main>
+    </>
+  );
+};
+export default LoggPage;

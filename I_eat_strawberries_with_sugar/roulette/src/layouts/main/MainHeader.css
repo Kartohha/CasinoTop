@@ -1,0 +1,64 @@
+.head{
+   width: 100%;
+   height: 70px;
+   background: #94403E;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.men{
+   width: 14%;
+   height: 70%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border:2px solid white;
+   border-radius: 5px;
+   margin-right: 10px;
+   margin-left: 10px;
+   color: white;
+   background: #5C3433;
+   transition: 0.2s;
+}
+.men1,.men2,.men3,.men0,.men5,.men4{
+   width: 35px;
+   height: 35px;
+   background-image: url(../../../public/imgs/6chips.png);
+   background-size: 100%;
+   margin: 5px;
+}
+.men0{
+   background-image: url(../../../public/imgs/home.png);
+   background-size: 100%;
+}
+
+.men2{
+   background-image: url(../../../public/imgs/777.png);
+   background-size: 100%;
+}
+
+.men3{
+   background-image: url(../../../public/imgs/Deck.png);
+   background-size: 100%;
+}
+.men4{
+   background-image: url(../../../public/imgs/reg.png);
+   background-size: 100%;
+   width: 45px;
+   background-position: 0px -3px;
+}
+.men5{
+   background-image: url(../../../public/imgs/login.png);
+   background-size: 100%;
+   width: 43px;
+}
+.men:hover{
+   font-size: 14px;
+   background: #401d1d;
+   border-radius: 8px;
+
+}
+
+
+
